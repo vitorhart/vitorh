@@ -1,0 +1,90 @@
+header {
+    background-color: #2b5b9e; 
+    color: white;
+    padding: 1rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+}
+body{
+
+    background-color: #ffffff; 
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    color: #333333;
+} 
+.perguntas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 50vh;
+    margin-left: 50vh;
+   
+}
+
+.card{
+    background: linear-gradient(135deg, #ffffff, #f5f0ff);
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-left: 4px solid #6a8caf; 
+   
+    
+}
+.card {
+        margin-bottom: 8px;
+        border-radius: 6px;
+    }
+    
+    .card-body {
+        padding: 8px 10px;
+    }
+    
+    h3 {
+        font-size: 14px;
+        margin-bottom: 6px;
+    }
+    
+    select {
+        padding: 4px 6px;
+        font-size: 13px;
+    }
+
+p{
+    background-color: #3498db;
+}
+
+.container{
+    width: 100%;
+    background-color: white;
+}
+.skiils{
+    text-align: right;
+    color: lightblue;
+}
+#exatas{
+    width: 0%;
+    background-color: lightblue;
+}
+
+#artes{
+    width: 0%;
+    background-color: lightblue;
+}
+
+#humanas{
+    width: 0%;
+    background-color: lightblue;
+}
+
+#ciencias{
+    width: 0%;
+    background-color: lightblue;
+}
+
+#negocios{
+    width: 0%;
+    background-color: white;
+}
